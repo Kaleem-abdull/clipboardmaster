@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+}
+body {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  background: url("./images/bg-header-mobile.png");
+  min-height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+header img {
+  padding-top: 150px;
+}
+main {
+  justify-content: center;
+  padding: 25px;
+}
+article {
+  padding: 25px;
+  align-items: center;
+  text-align: center;
+}
+article h1 {
+  color: hsl(210, 10%, 33%);
+}
+article p {
+  margin-top: 20px;
+  color: hsl(210, 10%, 33%);
+  opacity: 30%;
+}
+.btns {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 180px;
+}
+button {
+  margin-bottom: 18px;
+  padding: 14px 30%;
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+}
+.btn1 button {
+  background: hsl(171, 66%, 44%);
+}
+.btn2 button {
+  background: hsl(233, 100%, 69%);
+}
+figure {
+  margin-top: 60px;
+  margin-bottom: 140px;
+}
+figure img {
+  width: 100%;
+}
+section {
+  margin-bottom: 90px;
+}
+section img {
+  margin-bottom: 30px;
+}
+.sponsors img {
+  margin: 60px auto;
+  display: block;
+}
+footer {
+  text-align: center;
+  background: hwb(206 95% 2%);
+  padding: 25px;
+}
+footer img {
+  width: 60px;
+  margin-bottom: 40px;
+}
+ul li {
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+ul li a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  opacity: 60%;
+}
+.last {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.last img {
+  text-align: center;
+  width: 20px;
+  margin: 25px;
+}
+.last a {
+  text-decoration: none;
+}

@@ -46,7 +46,9 @@ button {
   border-radius: 20px;
   color: white;
   font-weight: 600;
+  cursor: pointer;
 }
+
 .btn1 button {
   background: hsl(171, 66%, 44%);
 }
@@ -61,7 +63,7 @@ figure img {
   width: 100%;
 }
 section {
-  margin-bottom: 90px;
+  margin-bottom: 80px;
 }
 section img {
   margin-bottom: 30px;
@@ -101,4 +103,72 @@ ul li a {
 }
 .last a {
   text-decoration: none;
+}
+#opts {
+  text-align: center;
+}
+#opts img {
+  width: 50px;
+}
+#opts h1 {
+  color: hsl(210, 10%, 33%);
+}
+#opts p {
+  color: hsl(210, 10%, 33%);
+  opacity: 30%;
+}
+.sponsors {
+  text-align: center;
+}
+footer a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+@media screen and (min-width: 1300px) {
+  article {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .btns {
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+  }
+  button {
+    width: 300px;
+  }
+  #naut {
+    display: flex;
+  }
+  #naut img {
+    width: 60%;
+    margin-left: -10%;
+    height: 30%;
+  }
+  #naut figcaption {
+    padding-left: 0;
+  }
+  #device {
+    text-align: center;
+  }
+  #device img {
+    width: auto;
+  }
+  section {
+    display: flex;
+  }
+  footer {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+  }
+  ul li {
+    margin-bottom: 12px;
+  }
 }
